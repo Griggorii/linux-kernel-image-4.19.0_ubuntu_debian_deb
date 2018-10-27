@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Ninja IDE
+Comment=Python IDE
+Exec=notify-send -i info Information "Здраствуйте пользователь это Операционная Система нового поколения 4.0 🌎"
+Icon=ninja-ide
+Terminal=false
+Type=Application
+Categories=Development;IDE;Qt;
+Keywords=development;python;IDE;
+Name[ru]=Информация

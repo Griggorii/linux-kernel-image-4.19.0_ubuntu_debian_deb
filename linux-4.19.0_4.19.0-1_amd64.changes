@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Sat, 27 Oct 2018 19:37:53 +0800
+Source: linux-4.19.0
+Binary: linux-image-4.19.0 linux-headers-4.19.0 linux-libc-dev linux-image-4.19.0-dbg
+Architecture: amd64
+Version: 4.19.0-1
+Distribution: cosmic
+Urgency: low
+Maintainer: griggorii <griggorii@GriggoriiX64>
+Changed-By: griggorii <griggorii@GriggoriiX64>
+Description:
+ linux-headers-4.19.0 - Linux kernel headers for 4.19.0 on amd64
+ linux-image-4.19.0 - Linux kernel, version 4.19.0
+ linux-image-4.19.0-dbg - Linux kernel debugging symbols for 4.19.0
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-4.19.0 (4.19.0-1) cosmic; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ ab7b94e55ee6cdad071d6fa395a0f48803d902a9 4992 linux-4.19.0_4.19.0-1_amd64.buildinfo
+ 999cd0f605e6f12f5b48d48e5e2d3f1b3cb981ee 10758188 linux-headers-4.19.0_4.19.0-1_amd64.deb
+ e7e0dcab122d8199d5c9e6ad7a85683cb78e6288 12914884 linux-image-4.19.0_4.19.0-1_amd64.deb
+ 613c043864673e2b169f0c35f6cb6baf3be3abc8 1014236 linux-libc-dev_4.19.0-1_amd64.deb
+Checksums-Sha256:
+ 0db9adadcd780f3dcadf94d33fd72c6e39c3d285e5703021bf238d9c554d8473 4992 linux-4.19.0_4.19.0-1_amd64.buildinfo
+ 5c7b750a85fee0c50274227bedfc1ead837b8319eea854bba97fcb95c8a838cc 10758188 linux-headers-4.19.0_4.19.0-1_amd64.deb
+ 125c090beb4022e6297f218b37e5b930421fc240ea88bb6af34d4a7da42c0c66 12914884 linux-image-4.19.0_4.19.0-1_amd64.deb
+ 2e5ece71c5b309409dde2fa45bb8a7d28798071aba78ffbc6e3c966dd71a0786 1014236 linux-libc-dev_4.19.0-1_amd64.deb
+Files:
+ 88e2e4fa7cfc4d1d4e3ba47076a2e3d0 4992 kernel optional linux-4.19.0_4.19.0-1_amd64.buildinfo
+ c9b27d5258f2e1d647de209683c6e6f9 10758188 kernel optional linux-headers-4.19.0_4.19.0-1_amd64.deb
+ 6267b23febc45c7a77e5cdba7b0f6d69 12914884 kernel optional linux-image-4.19.0_4.19.0-1_amd64.deb
+ b5c6a8e477af428f6a82049d7d9e4e38 1014236 devel optional linux-libc-dev_4.19.0-1_amd64.deb
